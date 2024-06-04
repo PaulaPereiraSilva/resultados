@@ -117,3 +117,19 @@ resumo {
     font-size: 1.8rem;
     font-weight: 700;
 }
+@media (min-width: 736px) {
+    body{
+        min-height: 100svh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 736px;
+        background: var(--white);
+        border-radius: 3.2rem 0 0 3.2rem;
+        border-radius: 3.2rem;
+    }
+}
